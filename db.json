@@ -1,0 +1,790 @@
+[
+  {
+    "ref": "815ae3ce-66d7-4c37-8f7b-ee54b9ecc494",
+    "keyword": "472251573d7455c47306273a71d8e8d9",
+    "answer": "Hola",
+    "options": {},
+    "from": "5216181661143",
+    "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
+  },
+  {
+    "ref": "72fc098f-107c-4deb-aa9d-9dd935a8036b",
+    "keyword": "c22e4066d61d81721def9b25d8a397e8",
+    "answer": "Hola",
+    "options": {},
+    "from": "5216181661143",
+    "refSerialize": "c22e4066d61d81721def9b25d8a397e8"
+  },
+  {
+    "ref": "ans_3fd90625-839b-4153-9e5c-071047711b79",
+    "keyword": "key_a806ef14-0f8d-4514-b45c-bca1a8da6d1c",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "22d65cb064888fdedc54325fa1e84eed",
+    "from": "5216181661143"
+  },
+  {
+    "ref": "ans_861830f9-2e86-44fa-a9fb-213d5fca09e1",
+    "keyword": "ans_5db299e8-7b6e-4eb0-894f-567353e70215",
+    "answer": "Responda con el numero de la opcion!",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "cf7d64e446cb04e61ee324e09e113e5e",
+    "from": "5216181661143"
+  },
+  {
+    "ref": "ans_2784d0dd-42dc-4544-a2ef-555ed7dd5bbd",
+    "keyword": "ans_3fd90625-839b-4153-9e5c-071047711b79",
+    "answer": "Bienvenido al ChatBot del *Gran Fondo Coconal*\nEvento para los amantes del ciclismo. Recorrer la autopista DURANGO-TORREÓN en CARRERA 200K ",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "e50cb0aa9fef22fd4fd4e679bd722265",
+    "from": "5216181661143"
+  },
+  {
+    "ref": "ans_861830f9-2e86-44fa-a9fb-213d5fca09e1",
+    "keyword": "ans_5db299e8-7b6e-4eb0-894f-567353e70215",
+    "answer": "Responda con el numero de la opcion!",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "cf7d64e446cb04e61ee324e09e113e5e",
+    "from": "5216181661143"
+  },
+  {
+    "ref": "ans_5db299e8-7b6e-4eb0-894f-567353e70215",
+    "keyword": "ans_2784d0dd-42dc-4544-a2ef-555ed7dd5bbd",
+    "answer": "¿Como podemos ayudarte?\n\n*1* Ver Convocatoria\n*2* Ver Poster Oficial\n*3* Preguntar información\n*4* Inscripción",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "47e6b5c0b68d27874e280d6614f65aa2",
+    "from": "5216181661143"
+  },
+  {
+    "ref": "ans_861830f9-2e86-44fa-a9fb-213d5fca09e1",
+    "keyword": "ans_5db299e8-7b6e-4eb0-894f-567353e70215",
+    "answer": "Responda con el numero de la opcion!",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "cf7d64e446cb04e61ee324e09e113e5e",
+    "from": "5216181661143"
+  },
+  {
+    "ref": "ans_861830f9-2e86-44fa-a9fb-213d5fca09e1",
+    "keyword": "ans_5db299e8-7b6e-4eb0-894f-567353e70215",
+    "answer": "Responda con el numero de la opcion!",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "cf7d64e446cb04e61ee324e09e113e5e",
+    "from": "5216181661143"
+  },
+  {
+    "ref": "54a05acd-ee96-4056-82b1-8d55d0f75a69",
+    "keyword": "cf7d64e446cb04e61ee324e09e113e5e",
+    "answer": "1",
+    "options": {},
+    "from": "5216181661143",
+    "refSerialize": "290236b1d481a790a200ea6e94b2122a"
+  },
+  {
+    "ref": "ans_e86df65b-a012-448a-9d96-59598d5d6d4b",
+    "keyword": "key_31fb782e-0eb4-4994-a9ee-3e7c05008fed",
+    "answer": "Esta es la convocatoria del evento GFCOCONAL 2023",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "1587e5034856a54f7f61740c0558d515",
+    "from": "5216181661143"
+  },
+  {
+    "ref": "ans_34fe17ce-afd2-49b9-bbc8-58701a08004b",
+    "keyword": "ans_e86df65b-a012-448a-9d96-59598d5d6d4b",
+    "answer": "⏱️",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "8d31669ec0695bf921c4bcc4a8213624",
+    "from": "5216181661143"
+  },
+  {
+    "ref": "ans_3fa835c6-e260-4e24-a935-bfcb97d0cfe6",
+    "keyword": "ans_34fe17ce-afd2-49b9-bbc8-58701a08004b",
+    "answer": "_",
+    "options": {
+      "media": "./assets/CONVOCATORIA_GFCOCONAL_2023.pdf",
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "d13cda580921096b474b339936fc8786",
+    "from": "5216181661143"
+  },
+  {
+    "ref": "ans_0b7610e5-32cf-4449-b128-8ff7d1eda878",
+    "keyword": "ans_3fa835c6-e260-4e24-a935-bfcb97d0cfe6",
+    "answer": "Escribe *menu* para volver al menu\nEscribe *salir* para salir del chatbot",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "e9b9ee7af76007f96ab37ba8efb6f313",
+    "from": "5216181661143"
+  },
+  {
+    "ref": "64f7e310-6991-46e9-b60d-1d29619e26b1",
+    "keyword": "e9b9ee7af76007f96ab37ba8efb6f313",
+    "answer": "Menú",
+    "options": {},
+    "from": "5216181661143",
+    "refSerialize": "24f993908d01def8edb99c3d92f53f73"
+  },
+  {
+    "ref": "ans_408a5f0b-3d3d-4358-9a36-206d53ed52ea",
+    "keyword": "key_4763e639-2a2e-4a69-9ea6-955eb11bd6a9",
+    "answer": "*1* Ver Convocatoria\n*2* Ver Poster Oficial\n*3* Preguntar información\n*4* Inscripción",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "a23eaabd211b5dc171ca6581e5f8e0ba",
+    "from": "5216181661143"
+  },
+  {
+    "ref": "ans_7109025e-6190-4a8b-a62f-cf679027659c",
+    "keyword": "ans_408a5f0b-3d3d-4358-9a36-206d53ed52ea",
+    "answer": "Responda con el numero de la opcion ó salir para terminar!",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "59c6c62ac787bcf52345f00b636f0475",
+    "from": "5216181661143"
+  },
+  {
+    "ref": "ff64db37-b162-40f7-9f2b-f15953657c4f",
+    "keyword": "59c6c62ac787bcf52345f00b636f0475",
+    "answer": "2",
+    "options": {},
+    "from": "5216181661143",
+    "refSerialize": "2294c3d08b53a6effa5df696a15b9d30"
+  },
+  {
+    "ref": "ans_96fc9bb7-277a-4c7f-a4a6-8201a8c68105",
+    "keyword": "key_8c6562c8-13f8-4121-bcbc-3b714016e465",
+    "answer": "Este es el poster oficial del GFCOCONAL 2023",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "4a0f6942d16909184e106cd139bf32df",
+    "from": "5216181661143"
+  },
+  {
+    "ref": "ans_854c9618-e0c8-40de-97ae-15b2e8b62ff2",
+    "keyword": "ans_96fc9bb7-277a-4c7f-a4a6-8201a8c68105",
+    "answer": "⏱️",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "0fe6416c69daa96d7a813cd894417cdb",
+    "from": "5216181661143"
+  },
+  {
+    "ref": "ans_c51c51c6-c66f-4cce-a80b-822c310c1a52",
+    "keyword": "ans_854c9618-e0c8-40de-97ae-15b2e8b62ff2",
+    "answer": "_",
+    "options": {
+      "media": "./assets/PosterGFC_2023.jpg",
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "6132ca56126f7bf864629c5b45155806",
+    "from": "5216181661143"
+  },
+  {
+    "ref": "ans_5fcde744-cdba-44ba-a394-e33fe9b0bbf1",
+    "keyword": "ans_c51c51c6-c66f-4cce-a80b-822c310c1a52",
+    "answer": "Escribe *menu* para volver al menu\nEscribe *salir* para salir del chatbot",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "a10e902953911a6aeb46819b38982050",
+    "from": "5216181661143"
+  },
+  {
+    "ref": "e6d75552-c123-4210-a9f0-c86fce5a8c92",
+    "keyword": "a10e902953911a6aeb46819b38982050",
+    "answer": "Menu",
+    "options": {},
+    "from": "5216181661143",
+    "refSerialize": "1943ef5752ef89f46d7b613aaf765c9b"
+  },
+  {
+    "ref": "ans_408a5f0b-3d3d-4358-9a36-206d53ed52ea",
+    "keyword": "key_4763e639-2a2e-4a69-9ea6-955eb11bd6a9",
+    "answer": "*1* Ver Convocatoria\n*2* Ver Poster Oficial\n*3* Preguntar información\n*4* Inscripción",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "a23eaabd211b5dc171ca6581e5f8e0ba",
+    "from": "5216181661143"
+  },
+  {
+    "ref": "ans_7109025e-6190-4a8b-a62f-cf679027659c",
+    "keyword": "ans_408a5f0b-3d3d-4358-9a36-206d53ed52ea",
+    "answer": "Responda con el numero de la opcion ó salir para terminar!",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "59c6c62ac787bcf52345f00b636f0475",
+    "from": "5216181661143"
+  },
+  {
+    "ref": "ad08ce57-633d-4b17-ab8a-5765ffa3b291",
+    "keyword": "59c6c62ac787bcf52345f00b636f0475",
+    "answer": "3",
+    "options": {},
+    "from": "5216181661143",
+    "refSerialize": "7af65864494b12f0f7ef00589f4d3979"
+  },
+  {
+    "ref": "ans_22124c90-5f2c-44f0-ad65-43b0cf262554",
+    "keyword": "key_47bda0c6-101a-492f-93c4-780870218bc0",
+    "answer": "Haz tu pregunta aqui y trataremos de resolver tus dudas del GFCOCONAL",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "3dc4833e2f92cf1ce10e55d59d7dc793",
+    "from": "5216181661143"
+  },
+  {
+    "ref": "b9881bd6-f22f-4514-95c4-3b7743d2de60",
+    "keyword": "3dc4833e2f92cf1ce10e55d59d7dc793",
+    "answer": "Incluye abastos?",
+    "options": {},
+    "from": "5216181661143",
+    "refSerialize": "32b8d3e10fb67efa4e43e83cd00c5f6b"
+  },
+  {
+    "ref": "544cccff-57ee-48cc-864b-913be68fd688",
+    "answer": "⏱️",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5216181661143",
+    "refSerialize": "e5cb9634810994e7403d6ab90a726203"
+  },
+  {
+    "ref": "2a34f3b4-463a-40bc-99c9-d585a3df95c7",
+    "answer": "Sí, el evento cuenta con puntos de abastecimiento en diferentes lugares a lo largo del recorrido. Puedes encontrar más información sobre los puntos de abastecimiento en la página 2 del reglamento del evento.",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5216181661143",
+    "refSerialize": "16230616568fe6f9b62e1be5f3513c7a"
+  },
+  {
+    "ref": "78c63cf5-df15-432f-a24b-a00ea4f4ab23",
+    "answer": "Escribe *Menu* para volver al menu",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5216181661143",
+    "refSerialize": "e7bec34853befd1c8b759837d42fc212"
+  },
+  {
+    "ref": "de8f94a1-3e0a-4c7a-af90-c437c88e4657",
+    "answer": "Escribe *Salir* para salir del chatbot",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5216181661143",
+    "refSerialize": "338c19699c66a3072cbff997724f093c"
+  },
+  {
+    "ref": "ae1aa09b-913f-4315-acc2-edd8bc4ea6e7",
+    "keyword": "32b8d3e10fb67efa4e43e83cd00c5f6b",
+    "answer": "Menú",
+    "options": {},
+    "from": "5216181661143",
+    "refSerialize": "24f993908d01def8edb99c3d92f53f73"
+  },
+  {
+    "ref": "ans_408a5f0b-3d3d-4358-9a36-206d53ed52ea",
+    "keyword": "key_4763e639-2a2e-4a69-9ea6-955eb11bd6a9",
+    "answer": "*1* Ver Convocatoria\n*2* Ver Poster Oficial\n*3* Preguntar información\n*4* Inscripción",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "a23eaabd211b5dc171ca6581e5f8e0ba",
+    "from": "5216181661143"
+  },
+  {
+    "ref": "ans_7109025e-6190-4a8b-a62f-cf679027659c",
+    "keyword": "ans_408a5f0b-3d3d-4358-9a36-206d53ed52ea",
+    "answer": "Responda con el numero de la opcion ó salir para terminar!",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "59c6c62ac787bcf52345f00b636f0475",
+    "from": "5216181661143"
+  },
+  {
+    "ref": "0f85c8f6-aca3-45fe-bf46-0820e35d8d31",
+    "keyword": "59c6c62ac787bcf52345f00b636f0475",
+    "answer": "4",
+    "options": {},
+    "from": "5216181661143",
+    "refSerialize": "e8139b7fa2fbc1b48f247924f8ad1961"
+  },
+  {
+    "ref": "ans_b884fb38-4031-4453-97ac-fe319056d871",
+    "keyword": "key_d91c20e0-c6be-458d-9414-459fc1089e67",
+    "answer": "¿Cual es tu Nombre Completo incluye Apellidos?",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "e1698b4a7cd922e3752a8ae0a3e8ad57",
+    "from": "5216181661143"
+  },
+  {
+    "ref": "4abac704-52d3-4389-9a53-b550f83d77d2",
+    "keyword": "e1698b4a7cd922e3752a8ae0a3e8ad57",
+    "answer": "Luis carrera Aviña",
+    "options": {},
+    "from": "5216181661143",
+    "refSerialize": "e4f9744fe658e2b15abe93a6fde65e0f"
+  },
+  {
+    "ref": "52af149e-0f70-428c-af51-70f624362949",
+    "answer": "Gracias por tu nombre!",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5216181661143",
+    "refSerialize": "c098324e8b211d973c0d6b2e17d26f18"
+  },
+  {
+    "ref": "ans_e6128079-27fd-45ed-98af-0a3adba5b3f5",
+    "keyword": "ans_b884fb38-4031-4453-97ac-fe319056d871",
+    "answer": "¿Qué Categoria vas a pagar?\n\n*1* 200k Ruta\n*2* 200k MTB Intermedios Libre\n*3* 200k MTB Avanzados Libre\n******** PASEO ***********\n*4* 200k Libre\n*5* 100k Libre",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "871808eed48c37ee39aa388b5be26376",
+    "from": "5216181661143"
+  },
+  {
+    "ref": "ans_de7120eb-771a-4bd1-a594-5305ed7979d4",
+    "keyword": "ans_e6128079-27fd-45ed-98af-0a3adba5b3f5",
+    "answer": "Responda con el numero de la opcion!",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "7437c43221407203dddc4ec31f5d3883",
+    "from": "5216181661143"
+  },
+  {
+    "ref": "fa829df5-36b9-4611-8019-894cfd12d038",
+    "keyword": "7437c43221407203dddc4ec31f5d3883",
+    "answer": "4",
+    "options": {},
+    "from": "5216181661143",
+    "refSerialize": "e8139b7fa2fbc1b48f247924f8ad1961"
+  },
+  {
+    "ref": "ans_bd09c908-317b-41ed-8bcd-d1a5b91c4b48",
+    "keyword": "ans_de7120eb-771a-4bd1-a594-5305ed7979d4",
+    "answer": "¿Rama?\n\n*1* Femenil\n*2* Varonil",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "35f5491a6f1ff3b23bca86d908309e6d",
+    "from": "5216181661143"
+  },
+  {
+    "ref": "ans_15fe0529-42d8-409a-9c04-9ba8fbcb7501",
+    "keyword": "ans_bd09c908-317b-41ed-8bcd-d1a5b91c4b48",
+    "answer": "Responda con el numero de la opcion!",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "ba41a5df3c2e8c050d3de4a839d6ec7a",
+    "from": "5216181661143"
+  },
+  {
+    "ref": "75a0cd61-cab1-4523-8e45-5a0cef65db1d",
+    "keyword": "ba41a5df3c2e8c050d3de4a839d6ec7a",
+    "answer": "2",
+    "options": {},
+    "from": "5216181661143",
+    "refSerialize": "2294c3d08b53a6effa5df696a15b9d30"
+  },
+  {
+    "ref": "ans_5262781c-ab55-427e-83e7-2a6668f6546b",
+    "keyword": "ans_15fe0529-42d8-409a-9c04-9ba8fbcb7501",
+    "answer": "Solo un dato más ¿Cual es tu email?",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "c415f2ae983276c5e9659c8fd6508811",
+    "from": "5216181661143"
+  },
+  {
+    "ref": "6873302a-6a5c-4a64-b2e6-8bcf5776e694",
+    "keyword": "c415f2ae983276c5e9659c8fd6508811",
+    "answer": "Carreraavila.luis@gnail.com",
+    "options": {},
+    "from": "5216181661143",
+    "refSerialize": "d16e1dc04796b41379a210eed929794a"
+  },
+  {
+    "ref": "b40c47d3-ab36-4da7-b1fa-12575302742e",
+    "answer": "dame un momento para generarte un link de pago",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5216181661143",
+    "refSerialize": "b457a846c8297bb9dec65fc2b6af7438"
+  },
+  {
+    "ref": "6df47c5c-663f-4462-aa55-05d9f2d28f87",
+    "answer": "Este es tu link: https://checkout.stripe.com/c/pay/cs_test_a11ylfKY46b8BNABBJEan4EaoNLiKSyMqMFsddH05Oun5YO6lN4nxgDI76#fidkdWxOYHwnPyd1blpxYHZxWjA0SjFXVFFDRH9qdkJtXFw2clFhPVVJZlBiT2IyMjNHTlc0M1JBbDBtfEtfX2J3a28xXUFGcH88UGpdTG9mcUhoNVJqPFF3M2pdd2ZwX2NwbWtsbm5HVlVINTVJUzU2azRJVycpJ2N3amhWYHdzYHcnP3F3cGApJ2lkfGpwcVF8dWAnPyd2bGtiaWBabHFgaCcpJ2BrZGdpYFVpZGZgbWppYWB3dic%2FcXdwYHgl",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "delay": 0
+    },
+    "from": "5216181661143",
+    "refSerialize": "7ccf25216ec6cd3764a4806354ad6115"
+  },
+  {
+    "ref": "fe4cd58a-8b33-4839-8054-c3e99bfbde97",
+    "keyword": "d16e1dc04796b41379a210eed929794a",
+    "answer": "Menú",
+    "options": {},
+    "from": "5216181661143",
+    "refSerialize": "24f993908d01def8edb99c3d92f53f73"
+  },
+  {
+    "ref": "ans_408a5f0b-3d3d-4358-9a36-206d53ed52ea",
+    "keyword": "key_4763e639-2a2e-4a69-9ea6-955eb11bd6a9",
+    "answer": "*1* Ver Convocatoria\n*2* Ver Poster Oficial\n*3* Preguntar información\n*4* Inscripción",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "a23eaabd211b5dc171ca6581e5f8e0ba",
+    "from": "5216181661143"
+  },
+  {
+    "ref": "ans_7109025e-6190-4a8b-a62f-cf679027659c",
+    "keyword": "ans_408a5f0b-3d3d-4358-9a36-206d53ed52ea",
+    "answer": "Responda con el numero de la opcion ó salir para terminar!",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": true,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "59c6c62ac787bcf52345f00b636f0475",
+    "from": "5216181661143"
+  },
+  {
+    "ref": "36009986-680e-4cf4-a445-95ab4684069b",
+    "keyword": "59c6c62ac787bcf52345f00b636f0475",
+    "answer": "Salir",
+    "options": {},
+    "from": "5216181661143",
+    "refSerialize": "ba4c6387ed90bfed092fc298b2e0e371"
+  },
+  {
+    "ref": "ans_1e5396cf-5684-4474-8ff6-4d40f6ffec4b",
+    "keyword": "key_72df43b8-5108-4f87-9006-3aa8272dd302",
+    "answer": "Gracias por utilizar el ChatBot del #GFCoconal",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "nested": [],
+      "keyword": {},
+      "callback": false
+    },
+    "refSerialize": "638785d5f76c76928fa41bf82ca80280",
+    "from": "5216181661143"
+  },
+  {
+    "ref": "ans_91fbf687-a991-4275-97e6-92e652b8ba34",
+    "keyword": "ans_1e5396cf-5684-4474-8ff6-4d40f6ffec4b",
+    "answer": "__call_action__",
+    "options": {
+      "media": null,
+      "buttons": [],
+      "capture": false,
+      "child": null,
+      "delay": 0,
+      "idle": null,
+      "nested": [],
+      "keyword": {},
+      "callback": true
+    },
+    "refSerialize": "b183c5b16b177285d2be5a967d6945cf",
+    "from": "5216181661143"
+  }
+]
