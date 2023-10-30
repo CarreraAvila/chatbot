@@ -1,7 +1,12 @@
 const { addKeyword, EVENTS } = require("@bot-whatsapp/bot");
 
 const flowPoster =  addKeyword(EVENTS.ACTION)
-
+.addAction(
+  async (ctx, { state }) => {
+      await state.update({ flujo: 'flowPoster' })
+      
+  }
+)
 .addAnswer('Este es el poster oficial del GFCOCONAL 2023')
 .addAnswer("⏱️")
 .addAnswer('_', {

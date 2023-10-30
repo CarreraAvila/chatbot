@@ -4,6 +4,12 @@ const { info } = require("../services/info");
 
 
 module.exports = addKeyword(EVENTS.ACTION)
+.addAction(
+    async (ctx, { state }) => {
+        await state.update({ flujo: 'flowInfo' })
+        
+    }
+  )
 
     .addAnswer(
         `Haz tu pregunta aqui y trataremos de resolver tus dudas del GFCOCONAL`,

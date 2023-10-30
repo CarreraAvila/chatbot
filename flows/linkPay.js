@@ -59,6 +59,12 @@ const flujoPay= addKeyword(EVENTS.ACTION)
 
 
 module.exports = addKeyword(EVENTS.ACTION)
+.addAction(
+  async (ctx, { state }) => {
+      await state.update({ flujo: 'flowSendLink' })
+      
+  }
+)
 
     .addAnswer(
       '¿Cual es tu Nombre Completo incluye Apellidos?',
