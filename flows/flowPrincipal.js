@@ -11,6 +11,7 @@ const flowPrincipal = addKeyword(EVENTS.WELCOME)
   .addAction(
    
     async (ctx, { state, gotoFlow }) => {
+      console.log(ctx)
       
       const currentState = state.getMyState();
       if (currentState!=undefined){

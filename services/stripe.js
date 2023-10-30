@@ -1,6 +1,6 @@
 const { encryptData } = require("../utils/hash");
 
-const handlerStripe = async (phone = '', email = '') => {
+const handlerStripe = async (phone = '', email = '', name = '', categoria='', rama='') => {
 
   const stripeApiBase64 = process.env.STRIPE_SK
   const priceId = process.env.PRODUCT_ID;
@@ -23,9 +23,14 @@ const handlerStripe = async (phone = '', email = '') => {
   urlencoded.append("line_items[0][quantity]", "1");
   urlencoded.append("allow_promotion_codes", "false");
   urlencoded.append("customer_creation", "always");
-  urlencoded.append("success_url", `${FRONT_URL}/api/callback?p=${encryptData(`${phone}__success__${email}`)}`);
-  urlencoded.append("cancel_url", `${FRONT_URL}/api/callback?p=${encryptData(`${phone}__fail__${email}`)}`);
+  urlencoded.append("success_url", `${FRONT_URL}/api/callback?p=${encryptData(`${phone}__success__${email}__${name}`)}`);
+  urlencoded.append("cancel_url", `${FRONT_URL}/api/callback?p=${encryptData(`${phone}__fail__${email}__${name}`)}`);
   urlencoded.append("mode", "payment");
+  urlencoded.append("customer_email", email);
+  urlencoded.append("metadata",{
+    'categoria': categoria,
+    'rama': rama,
+  } );
 
   const requestOptions = {
     method: "POST",

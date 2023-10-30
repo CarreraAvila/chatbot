@@ -1,6 +1,10 @@
 const EXTERNAL_USER = process.env.EXTERNAL_USER ?? "";
 const EXTERNAL_PASS = process.env.EXTERNAL_PASS ?? "";
 
+
+const pool = require("../../../db/db");
+
+
 const login = async () => {
   const apiResponse = await fetch(
     `https://api.codigoencasa.com/v1/auth/login`,
@@ -52,9 +56,20 @@ const register = async (email) => {
       }),
     }
   );
+}
 
-  const data = await apiResponse.json();
-  return data.data.user._id;
+  const registerUsers = async (email, phone, status, name) => {
+    try {
+      
+       const result =  await pool.query(`INSERT INTO railway.users(name, phone, email, status)VALUES ('${name}', '${phone}','${email}',${status})`)
+      // const data = await result.json();
+      console.log(result[0].insertId)
+      return result;  
+    } catch (error) {
+      console.log(error);
+      return error;
+    }
+    
 };
 
 const rechargePoint = async (points = 0, userId = "") => {
@@ -78,4 +93,4 @@ const rechargePoint = async (points = 0, userId = "") => {
   return data;
 };
 
-module.exports = { login, rechargePoint, exchange, register };
+module.exports = { login, rechargePoint, exchange, register, registerUsers };

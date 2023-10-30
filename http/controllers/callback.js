@@ -1,5 +1,5 @@
 const { decryptData } = require("../../utils/hash");
-//const { exchange, register } = require("../services/e-learning");
+const { registerUsers } = require("../services/e-learning");
 
 const COURSE_ID = process.env.COURSE_ID ?? "";
 
@@ -14,7 +14,7 @@ const ctrlCallBack = async (req, res) => {
   }
 
   const data = decryptData(payload);
-  const [phone, status, email] = data.split("__") ?? [
+  const [phone, status, email,name] = data.split("__") ?? [
     undefined,
     undefined,
     undefined,
@@ -41,6 +41,7 @@ const ctrlCallBack = async (req, res) => {
         "Si tienes algun inconveniente puedes escribirme un mail a ilianafav@hotmail.com ",
       ].join("\n")
     );
+    const insert = await registerUsers(email, phone, status, name);
     // const code = await exchange(COURSE_ID, email);
     // console.log(`Registando usuario:${email}`)
     // if (code === 404) {
