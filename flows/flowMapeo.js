@@ -25,6 +25,12 @@ const flowMapeo = addKeyword(EVENTS.ACTION)
         await state.update({ categoria: find[0][0].description})
         await state.update({ rama: find[0][0].ramadescription})
         await flowDynamic([`Hola ${username} `, `Ya estas inscrito a: ${find[0][0].description} en la rama ${find[0][0].ramadescription}`]);
+        await flowDynamic(
+          [
+            "Escribe *menu* para volver al menu",
+            "Escribe *salir* para salir del chatbot",
+          ]
+        ) 
 
       }else{
         await gotoFlow(flowSendLink);
@@ -34,12 +40,7 @@ const flowMapeo = addKeyword(EVENTS.ACTION)
 
     }
   )
-  .addAnswer(
-    [
-      "Escribe *menu* para volver al menu",
-      "Escribe *salir* para salir del chatbot",
-    ]
-  ) 
+
   
 
 module.exports = flowMapeo;
