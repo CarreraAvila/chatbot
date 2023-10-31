@@ -1,10 +1,10 @@
 const { addKeyword, EVENTS } = require("@bot-whatsapp/bot");
 const flowConvocatoria = require("../flows/flowConvocatoria");
-const flowSendLink = require("../flows/linkPay");
 const flowPoster = require("../flows/flowPoster");
 const flowInfo = require("../flows/flowInfo");
 const flowSecondary = require("../flows/flowSecondary");
 const { findUsers } = require("../http/services/e-learning");
+const flowMapeo = require("../flows/flowMapeo");
 
 
 
@@ -75,7 +75,7 @@ const flowPrincipal = addKeyword(EVENTS.WELCOME)
           await gotoFlow(flowInfo);
           break;
         case '4':
-          await gotoFlow(flowSendLink);
+          await gotoFlow(flowMapeo);
           break;
       }
     }

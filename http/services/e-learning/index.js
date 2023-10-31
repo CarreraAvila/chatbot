@@ -75,7 +75,7 @@ const register = async (email) => {
 const findUsers = async (phone) => {
   try {
     
-     const result =  await pool.query(`SELECT  a.*, b.description, CASE WHEN a.rama = 'F' THEN "Femanil" ELSE "VARONIL" END AS ramadescription  FROM railway.users a INNER JOIN railway.categorias b ON b.idcategorias = a.categoria where a.phone = '${phone}';`)
+     const result =  await pool.query(`SELECT  a.*, b.description, CASE WHEN a.rama = 'F' THEN "Femenil" ELSE "Varonil" END AS ramadescription  FROM railway.users a INNER JOIN railway.categorias b ON b.idcategorias = a.categoria where a.phone = '${phone}';`)
     // const data = await result.json();
     console.log(result)
     return result;  
