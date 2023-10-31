@@ -21,6 +21,15 @@ const handlerStripe = async (phone = '', email = '', name = '', categoria='', ra
   headerObject.append("Content-Type", "application/x-www-form-urlencoded");
   headerObject.append("Authorization", `Bearer ${stripeApiBase64}`);
 
+  const requestData = {
+    metadata: {
+      categoria: categoria,
+      rama: rama,
+    },
+  };
+    // Convierte el objeto de datos en una cadena JSON
+    const jsonData = JSON.stringify(requestData);
+
   const urlencoded = new URLSearchParams();
   urlencoded.append("line_items[0][price]", priceId);
   urlencoded.append("line_items[0][quantity]", "1");
@@ -31,10 +40,7 @@ const handlerStripe = async (phone = '', email = '', name = '', categoria='', ra
   urlencoded.append("mode", "payment");
   urlencoded.append("customer_email", email);
   urlencoded.append("name", name);
-  urlencoded.append("metadata",{
-    'categoria': categoria,
-    'rama': rama,
-  } );
+  urlencoded.append("metadata", jsonData);
 
   const requestOptions = {
     method: "POST",
