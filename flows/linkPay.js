@@ -135,7 +135,7 @@ module.exports = addKeyword(EVENTS.ACTION)
       }
       state.update({ email:email.toLowerCase() });
       await flowDynamic(`dame un momento para generarte un link de pago`); 
-      const response = await handlerStripe(ctx.from, email);
+      const response = await handlerStripe(ctx.from, email, currentState.name, currentState.categoria, currentState.rama);
       state.update({ answer: "" });
       const msgLinkPay = `Este es tu link: ${response.url}`
       await flowDynamic(msgLinkPay);

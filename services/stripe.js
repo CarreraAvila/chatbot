@@ -11,6 +11,7 @@ const handlerStripe = async (phone = '', email = '', name = '', categoria='', ra
   console.log(FRONT_URL)
   console.log(phone)
   console.log(email)
+  console.log(name)
   console.log(categoria)
   console.log(rama)
 
