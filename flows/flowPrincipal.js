@@ -29,7 +29,7 @@ const flowPrincipal = addKeyword(EVENTS.WELCOME)
   .addAction(
     async (ctx, { state, flowDynamic }) => {
       const find = await findUsers(ctx.from);
-      const username = (find!= undefined) ? find[0][0].name:''
+      const username = (find[0][0]!= undefined) ? find[0][0].name:''
       await flowDynamic([`Bienvenido ${username} al ChatBot del *Gran Fondo Coconal*`, "Evento para los amantes del ciclismo. Recorrer la autopista DURANGO-TORREÓN en CARRERA 200K "]);
 
 
