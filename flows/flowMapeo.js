@@ -19,6 +19,7 @@ const flowMapeo = addKeyword(EVENTS.ACTION)
     async (ctx, { state, flowDynamic, gotoFlow }) => {
       const find = await findUsers(ctx.from);
       const username = (find[0][0]!= undefined) ? find[0][0].name:''
+      console.log(find[0][0])
       if (find[0][0]!= undefined) {
         await state.update({ name: find[0][0].name})
         await state.update({ status: find[0][0].status})
