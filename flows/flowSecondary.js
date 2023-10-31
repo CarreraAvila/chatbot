@@ -10,10 +10,10 @@ const flowInfo = require("../flows/flowInfo");
 const flowPrincipal = addKeyword(['menu', "menú",'MENU','MENUÚ', 'Menú'])
   .addAnswer(
     [
-        "*1* Ver Convocatoria",
-        "*2* Ver Poster Oficial",
-        "*3* Preguntar información",
-        "*4* Inscripción",
+        "*1* Ver Convocatoria 🚴‍♀️",
+        "*2* Ver Poster Oficial 🖼️",
+        "*3* Preguntar información 🔎",
+        "*4* Inscripción 💳",
     ]
   )  
   .addAnswer(

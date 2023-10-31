@@ -53,7 +53,7 @@ const flowPrincipal = addKeyword(EVENTS.WELCOME)
       "*1* Ver Convocatoria 🚴‍♀️",
       "*2* Ver Poster Oficial 🖼️",
       "*3* Preguntar información 🔎",
-      "*4* Inscripción  💳",
+      "*4* Inscripción 💳",
     ]
   )
   .addAnswer(
