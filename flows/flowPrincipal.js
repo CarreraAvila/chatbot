@@ -30,7 +30,17 @@ const flowPrincipal = addKeyword(EVENTS.WELCOME)
     async (ctx, { state, flowDynamic }) => {
       const find = await findUsers(ctx.from);
       const username = (find[0][0]!= undefined) ? find[0][0].name:''
-      await flowDynamic([`Bienvenido ${username} al ChatBot del *Gran Fondo Coconal*`, "Evento para los amantes del ciclismo. Recorrer la autopista DURANGO-TORREÓN en CARRERA 200K "]);
+      if (find[0][0]!= undefined) {
+        await state.update({ name: find[0][0].name})
+        await state.update({ status: find[0][0].status})
+        await state.update({ categoria: find[0][0].description})
+        await state.update({ rama: find[0][0].ramadescription})
+        await flowDynamic([`Hola ${username} `, `Ya estas inscrito a: ${find[0][0].description} en la rama ${find[0][0].ramadescription}`]);
+
+      }else{
+        await flowDynamic([`Bienvenido al ChatBot del *Gran Fondo Coconal*`]);
+      }
+      
 
 
     }

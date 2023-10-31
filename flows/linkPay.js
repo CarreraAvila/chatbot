@@ -4,57 +4,7 @@ const fallBackEmailFlow = require('../flows/fallBackEmail');
 const { handlerStripe } = require("../services/stripe");
 
 
-const flujoRama= addKeyword(EVENTS.ACTION)
-.addAnswer(
-  [
-    "¿Rama?",
-    "",
-    "*1* Femenil",
-    "*2* Varonil"
-]
-)
-.addAnswer(
-  'Responda con el numero de la opcion!',
-  {
-      capture: true,
-  },
-  async (ctx, {state, gotoFlow}) => {
-   
-      await gotoFlow(flujoPay)
-  }
-)
 
-
-const flujoPay= addKeyword(EVENTS.ACTION)
-.addAnswer(
-  `Solo un dato más ¿Cual es tu email?`,
-  { capture: true },
-  async (ctx, { fallBack, state, flowDynamic, gotoFlow, extensions }) => {
-    console.log(ctx.body)
-    
-      const adapterDB = extensions.database
-      const currentState = state.getMyState();
-      const emailRegex = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
-      const email = ctx.body;
-      const fallBackEmail = currentState?.fallBackEmail ?? 0
-
-      if (!emailRegex.test(email)) {
-          if (fallBackEmail > 2) {
-              return gotoFlow(fallBackEmailFlow)
-          }
-
-          state.update({ fallBackEmail: fallBackEmail + 1 })
-          return fallBack("Debes introducir un email valido");
-      }
-      state.update({ email:email.toLowerCase() });
-      await flowDynamic(`dame un momento para generarte un link de pago`); 
-      const response = await handlerStripe(ctx.from, email, currentState.name, currentState.categoria, currentState.rama);
-      state.update({ answer: "" });
-      const msgLinkPay = `Este es tu link: ${response.url}`
-      await flowDynamic(msgLinkPay);
-
-  }
-);
 
 
 
