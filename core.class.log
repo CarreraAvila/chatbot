@@ -1,0 +1,154 @@
+[handleMsg]:  {
+  key: {
+    remoteJid: '5216181661143@s.whatsapp.net',
+    fromMe: false,
+    id: '3A46CC2ECE6D89CA784E',
+    participant: undefined
+  },
+  messageTimestamp: 1698786696,
+  pushName: 'Luis Carrera',
+  broadcast: false,
+  message: Message {
+    conversation: 'Menú',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Menú',
+  from: '5216181661143'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0b57b7f0-36c5-4b88-9996-12ad292f62c6',
+  keyword: 'key_3a0d5e6f-8c17-48df-b263-6a730234e838',
+  answer: '*1* Ver Convocatoria 🚴‍♀️\n' +
+    '*2* Ver Poster Oficial 🖼️\n' +
+    '*3* Preguntar información 🔎\n' +
+    '*4* Inscripción 💳',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '2a6797e76c6481f64cf963a1759672e1'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_4918e1c0-67a4-4c7a-996c-f516abf1decd',
+  keyword: 'ans_0b57b7f0-36c5-4b88-9996-12ad292f62c6',
+  answer: 'Responda con el numero de la opcion ó salir para terminar!',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '5b37724aba6e9af240b08a68e49c106d'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5216181661143@s.whatsapp.net',
+    fromMe: false,
+    id: '3AF3F1B044789A7E3DF1',
+    participant: undefined
+  },
+  messageTimestamp: 1698786701,
+  pushName: 'Luis Carrera',
+  broadcast: false,
+  message: Message {
+    conversation: '4',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '4',
+  from: '5216181661143'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5216181661143@s.whatsapp.net',
+    fromMe: false,
+    id: '3AFBB73BCCF415EF6B18',
+    participant: undefined
+  },
+  messageTimestamp: 1698786713,
+  pushName: 'Luis Carrera',
+  broadcast: false,
+  message: Message {
+    conversation: 'Menú',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: 'Menú',
+  from: '5216181661143'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_0b57b7f0-36c5-4b88-9996-12ad292f62c6',
+  keyword: 'key_3a0d5e6f-8c17-48df-b263-6a730234e838',
+  answer: '*1* Ver Convocatoria 🚴‍♀️\n' +
+    '*2* Ver Poster Oficial 🖼️\n' +
+    '*3* Preguntar información 🔎\n' +
+    '*4* Inscripción 💳',
+  options: {
+    media: null,
+    buttons: [],
+    capture: false,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [],
+    keyword: {},
+    callback: false
+  },
+  refSerialize: '2a6797e76c6481f64cf963a1759672e1'
+}
+[QUEUE_SE_ENVIO]:  {
+  ref: 'ans_4918e1c0-67a4-4c7a-996c-f516abf1decd',
+  keyword: 'ans_0b57b7f0-36c5-4b88-9996-12ad292f62c6',
+  answer: 'Responda con el numero de la opcion ó salir para terminar!',
+  options: {
+    media: null,
+    buttons: [],
+    capture: true,
+    child: null,
+    delay: 0,
+    idle: null,
+    nested: [],
+    keyword: {},
+    callback: true
+  },
+  refSerialize: '5b37724aba6e9af240b08a68e49c106d'
+}
+[handleMsg]:  {
+  key: {
+    remoteJid: '5216181661143@s.whatsapp.net',
+    fromMe: false,
+    id: '3AB56C96C1249E14C738',
+    participant: undefined
+  },
+  messageTimestamp: 1698786717,
+  pushName: 'Luis Carrera',
+  broadcast: false,
+  message: Message {
+    conversation: '4',
+    messageContextInfo: MessageContextInfo {
+      deviceListMetadata: [DeviceListMetadata],
+      deviceListMetadataVersion: 2
+    }
+  },
+  body: '4',
+  from: '5216181661143'
+}

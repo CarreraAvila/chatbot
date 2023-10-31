@@ -24,6 +24,7 @@ const flowPoster = require("./flows/flowPoster");
 const flowSendLink = require("./flows/linkPay");
 const fallBackEmail = require("./flows/fallBackEmail");
 const flowInfo = require("./flows/flowInfo");
+const flowMapeo = require("./flows/flowMapeo");
 const flowConvocatoria = require("./flows/flowConvocatoria");
 
 // const { flowReparacion } = require("./flows/flowReparacion");
@@ -42,6 +43,7 @@ const main = async () => {
         fallBackEmail,
         flowInfo,
         flowPoster,
+        flowMapeo,
         flowConvocatoria,
         
         // flowReparacion(chatGPT),
