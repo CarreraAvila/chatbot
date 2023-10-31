@@ -38,7 +38,7 @@ const flowPrincipal = addKeyword(EVENTS.WELCOME)
         await flowDynamic([`Hola ${username} `, `Ya estas inscrito a: ${find[0][0].description} en la rama ${find[0][0].ramadescription}`]);
 
       }else{
-        await flowDynamic([`Bienvenido al ChatBot del *Gran Fondo Coconal*`]);
+        await flowDynamic([`Bienvenido al ChatBot del 🏁*Gran Fondo Coconal*🏁`]);
       }
       
 
@@ -50,10 +50,10 @@ const flowPrincipal = addKeyword(EVENTS.WELCOME)
     [
       "¿Como podemos ayudarte?",
       "",
-      "*1* Ver Convocatoria",
-      "*2* Ver Poster Oficial",
-      "*3* Preguntar información",
-      "*4* Inscripción",
+      "*1* Ver Convocatoria 🚴‍♀️",
+      "*2* Ver Poster Oficial 🖼️",
+      "*3* Preguntar información 🔎",
+      "*4* Inscripción  💳",
     ]
   )
   .addAnswer(
