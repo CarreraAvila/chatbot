@@ -39,7 +39,7 @@ const handlerStripe = async (phone = '', email = '', name = '', categoria='', ra
   urlencoded.append("cancel_url", `${FRONT_URL}/api/callback?p=${encryptData(`${phone}__fail__${email}__${name}`)}`);
   urlencoded.append("mode", "payment");
   urlencoded.append("customer_email", email);
-  //urlencoded.append("metadata", jsonData);
+  urlencoded.append("metadata", jsonData);
 
   const requestOptions = {
     method: "POST",
