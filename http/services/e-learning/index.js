@@ -61,7 +61,7 @@ const register = async (email) => {
   const registerUsers = async (email, phone, status, name) => {
     try {
       
-       const result =  await pool.query(`INSERT INTO railway.users(name, phone, email, status)VALUES ('${name}', '${phone}','${email}','${status}')`)
+       const result =  await pool.query(`INSERT INTO railway.users(name, phone, email, status, categoria, rama)VALUES ('${name}', '${phone}','${email}','${status}','${categoria}','${rama}')`)
       // const data = await result.json();
       console.log(result[0].insertId)
       return result;  
@@ -70,6 +70,20 @@ const register = async (email) => {
       return error;
     }
     
+};
+
+const findUsers = async (phone) => {
+  try {
+    
+     const result =  await pool.query(`SELECT * FROM railway.users where phone = '${phone}';`)
+    // const data = await result.json();
+    console.log(result)
+    return result;  
+  } catch (error) {
+    console.log(error);
+    return error;
+  }
+  
 };
 
 const rechargePoint = async (points = 0, userId = "") => {
@@ -93,4 +107,4 @@ const rechargePoint = async (points = 0, userId = "") => {
   return data;
 };
 
-module.exports = { login, rechargePoint, exchange, register, registerUsers };
+module.exports = { login, rechargePoint, exchange, register, registerUsers, findUsers };

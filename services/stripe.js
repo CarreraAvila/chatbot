@@ -21,31 +21,18 @@ const handlerStripe = async (phone = '', email = '', name = '', categoria='', ra
   headerObject.append("Content-Type", "application/x-www-form-urlencoded");
   headerObject.append("Authorization", `Bearer ${stripeApiBase64}`);
 
-  const requestData = {
-    
-      categoria: categoria,
-      rama: rama,
-    
-  };
-    // Convierte el objeto de datos en una cadena JSON
-    const jsonData = JSON.stringify(requestData);
 
   const urlencoded = new URLSearchParams();
   urlencoded.append("line_items[0][price]", priceId);
   urlencoded.append("line_items[0][quantity]", "1");
   urlencoded.append("allow_promotion_codes", "false");
   urlencoded.append("customer_creation", "always");
-  urlencoded.append("success_url", `${FRONT_URL}/api/callback?p=${encryptData(`${phone}__success__${email}__${name}`)}`);
+  urlencoded.append("success_url", `${FRONT_URL}/api/callback?p=${encryptData(`${phone}__success__${email}__${name}__${categoria}__${rama}`)}`);
   urlencoded.append("cancel_url", `${FRONT_URL}/api/callback?p=${encryptData(`${phone}__fail__${email}__${name}`)}`);
   urlencoded.append("mode", "payment");
   urlencoded.append("customer_email", email);
-  urlencoded.append("metadata", requestData);
+  
 
-  const requestOptions = {
-    method: "POST",
-    headers: headerObject,
-    body: urlencoded,
-  };
 
   const stripeRequest = await fetch(URL, requestOptions);
   const response = await stripeRequest.json();

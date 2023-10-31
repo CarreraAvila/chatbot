@@ -14,7 +14,7 @@ const ctrlCallBack = async (req, res) => {
   }
 
   const data = decryptData(payload);
-  const [phone, status, email,name] = data.split("__") ?? [
+  const [phone, status, email,name, categoria, rama] = data.split("__") ?? [
     undefined,
     undefined,
     undefined,
@@ -41,7 +41,7 @@ const ctrlCallBack = async (req, res) => {
         "Si tienes algun inconveniente puedes escribirme un mail a ilianafav@hotmail.com ",
       ].join("\n")
     );
-    const insert = await registerUsers(email, phone, status, name);
+    const insert = await registerUsers(email, phone, status, name, categoria, rama);
     // const code = await exchange(COURSE_ID, email);
     // console.log(`Registando usuario:${email}`)
     // if (code === 404) {

@@ -4,6 +4,8 @@ const flowSendLink = require("../flows/linkPay");
 const flowPoster = require("../flows/flowPoster");
 const flowInfo = require("../flows/flowInfo");
 const flowSecondary = require("../flows/flowSecondary");
+const { findUsers } = require("../http/services/e-learning");
+
 
 
 
@@ -23,13 +25,17 @@ const flowPrincipal = addKeyword(EVENTS.WELCOME)
       }
     }
   )
+
   .addAction(
     async (ctx, { state }) => {
-      await state.update({ flujo: 'flowPrincipal' })
+      const find = await findUsers(ctx.from);
+      const username = (find!= undefined) ?await state.update({ username: find[0][0].name }):''
+      await flowDynamic([`Bienvenido ${username} al ChatBot del *Gran Fondo Coconal*`, "Evento para los amantes del ciclismo. Recorrer la autopista DURANGO-TORREÓN en CARRERA 200K "]);
+
 
     }
   )
-  .addAnswer(["Bienvenido al ChatBot del *Gran Fondo Coconal*", "Evento para los amantes del ciclismo. Recorrer la autopista DURANGO-TORREÓN en CARRERA 200K "])
+  
   .addAnswer(
     [
       "¿Como podemos ayudarte?",

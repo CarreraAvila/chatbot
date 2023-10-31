@@ -1,5 +1,6 @@
 require("dotenv").config();
 
+
 const { createBot, createProvider, createFlow, addKeyword } = require('@bot-whatsapp/bot')
 
 const QRPortalWeb = require('@bot-whatsapp/portal')
@@ -30,6 +31,8 @@ const flowConvocatoria = require("./flows/flowConvocatoria");
 
 
 const main = async () => {
+
+
     const adapterDB = new JsonFileAdapter()
     const adapterFlow = createFlow([
         flowPrincipal,
