@@ -22,10 +22,10 @@ const handlerStripe = async (phone = '', email = '', name = '', categoria='', ra
   headerObject.append("Authorization", `Bearer ${stripeApiBase64}`);
 
   const requestData = {
-    metadata: {
+    
       categoria: categoria,
       rama: rama,
-    },
+    
   };
     // Convierte el objeto de datos en una cadena JSON
     const jsonData = JSON.stringify(requestData);
