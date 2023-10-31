@@ -27,11 +27,16 @@ const handlerStripe = async (phone = '', email = '', name = '', categoria='', ra
   urlencoded.append("line_items[0][quantity]", "1");
   urlencoded.append("allow_promotion_codes", "false");
   urlencoded.append("customer_creation", "always");
-  urlencoded.append("success_url", `${FRONT_URL}/api/callback?p=${encryptData(`${phone}__success__${email}__${name}__${categoria}__${rama}`)}`);
+  urlencoded.append("success_url", `${FRONT_URL}/api/callback?p=${encryptData(`${phone}__success__${email}__${name}__${email}__${name}`)}`);
   urlencoded.append("cancel_url", `${FRONT_URL}/api/callback?p=${encryptData(`${phone}__fail__${email}__${name}`)}`);
   urlencoded.append("mode", "payment");
   urlencoded.append("customer_email", email);
   
+  const requestOptions = {
+    method: "POST",
+    headers: headerObject,
+    body: urlencoded,
+  };
 
 
   const stripeRequest = await fetch(URL, requestOptions);
