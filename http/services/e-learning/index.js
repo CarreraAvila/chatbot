@@ -61,7 +61,7 @@ const register = async (email) => {
   const registerUsers = async (email, phone, status, name) => {
     try {
       
-       const result =  await pool.query(`INSERT INTO railway.users(name, phone, email, status)VALUES ('${name}', '${phone}','${email}',${status})`)
+       const result =  await pool.query(`INSERT INTO railway.users(name, phone, email, status)VALUES ('${name}', '${phone}','${email}','${status}')`)
       // const data = await result.json();
       console.log(result[0].insertId)
       return result;  
