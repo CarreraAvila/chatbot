@@ -93,26 +93,25 @@ module.exports = addKeyword(EVENTS.ACTION)
   {
       capture: true,
   },
-  async (ctx, { flowDynamic, state , gotoFlow}) => {
+  async (ctx, {state}) => {
       await state.update({ categoria: ctx.body })
   }
 ).addAnswer(
   [
     "¿Rama?",
     "",
-    "*1* Femenil",
-    "*2* Varonil"
+    "*F* Femenil",
+    "*V* Varonil"
 ]
 )
 .addAnswer(
-  'Responda con el numero de la opcion!',
+  'Responda con el *F* o *V* ',
   {
       capture: true,
   },
-  async (ctx, {state, gotoFlow}) => {
-   
-      //await gotoFlow(flujoPay)
-  }
+  async (ctx, {state}) => {
+    await state.update({ rama: ctx.body })
+}
 )
 .addAnswer(
   `Solo un dato más ¿Cual es tu email?`,

@@ -11,6 +11,8 @@ const handlerStripe = async (phone = '', email = '', name = '', categoria='', ra
   console.log(FRONT_URL)
   console.log(phone)
   console.log(email)
+  console.log(categoria)
+  console.log(rama)
 
   const URL = `https://api.stripe.com/v1/checkout/sessions`;
 
@@ -27,6 +29,7 @@ const handlerStripe = async (phone = '', email = '', name = '', categoria='', ra
   urlencoded.append("cancel_url", `${FRONT_URL}/api/callback?p=${encryptData(`${phone}__fail__${email}__${name}`)}`);
   urlencoded.append("mode", "payment");
   urlencoded.append("customer_email", email);
+  urlencoded.append("name", name);
   urlencoded.append("metadata",{
     'categoria': categoria,
     'rama': rama,
